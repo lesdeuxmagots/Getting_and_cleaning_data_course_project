@@ -6,7 +6,7 @@ This is the Course Project of the Getting and Cleaning Data course on Coursera. 
 
 ## Files Included
 
-This repo includes the data which is used in the analysis, with both zip and unzipped in the proper locations for the script to run. It also includes the txt file from Step 5
+This repo includes the script file which is used in the analysis, readme and code book associated  
 
 ## Code Walkthrough
 
