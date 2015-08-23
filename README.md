@@ -8,6 +8,10 @@ This is the Course Project of the Getting and Cleaning Data course on Coursera. 
 
 This repo includes the script file which is used in the analysis, readme and code book associated  
 
+## Note Prior to Execution
+
+This requires the samsung zip the be extracted in the same folder, which means actual txt files will be in UCI subfolder.  
+
 ## Code Walkthrough
 
 Script loads all the files necessary to run the analysis.
