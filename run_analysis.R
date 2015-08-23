@@ -53,3 +53,5 @@ measurement_sd <- apply(tidy_data[,4:564],2,sd)
 
 # Step 5
 grouped_analysis <- tidy_data %.% group_by(subject,activity) %.% summarise_each(funs(mean))
+
+write.table("grouped_analysis",row.names = FALSE)
