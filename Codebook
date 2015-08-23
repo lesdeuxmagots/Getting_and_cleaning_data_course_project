@@ -1,0 +1,44 @@
+## Codebook
+
+## Provided Files
+
+test_subject
+    Text file read from data provided. Corresponds to subject_test.txt
+    
+test_data
+    Text file read from data provided. Corresponds to X_test.txt
+    
+test_activity
+    Text file read from data provided. Corresponds to y_test.txt
+
+training_subject
+    Text file read from data provided. Corresponds to subject_train.txt
+    
+training_data
+    Text file read from data provided. Corresponds to X_test.txt
+
+training_subject
+    Text file read from data provided. Corresponds to y_test.txt
+
+activity_labels
+    Text file read from data provided. Corresponds to activity_labels.txt
+    
+data_labels
+    Text file read from data provided. Corresponds to features.txt
+    
+## File-Specific Variables
+
+test_merge
+    This is the merged data from the test data, which includes the test subjects, test activities, and data 
+    per different feature. This also includes the designation of "test" to differentiate for the next merge step
+    
+training_merge
+    This is the merged data from the training data, which includes the training subjects, training activities, and data 
+    per different feature. This also includes the designation of "training" to differentiate for the next merge step
+    
+tidy_data
+    This data set merges test and training data into one clean file, with cleanly labeled headers. Each row of data
+    also has the designation of whether it is for a training vs. test subject
+    
+grouped_analysis
+    grouped_analysis corresponds to step 5, and runs averages across all the feature data grouped by subject and activity
